@@ -84,4 +84,58 @@ h1 {
 .form {
   display: flex;
   flex-direction: column;
+  padding: 0 30px 30px;
+}
+
+.dividir-contato {
+  flex: 1;
+}
+
+label, h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #9B9B9B;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  margin-bottom: 15px;
+  border: solid 1px #9B9B9B;
+  padding: 5px 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.opcoes label {
+  font-size: 14px;
+}
+
+.btn-submit {
+  background-color: #C2185B;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.curriculo {
+  margin-bottom: 15px;
+}
+
+.curriculo input {
+  display: none;
+}
+
+#curriculo-label {
+  background-color: #C4C4C4;
+  padding: 3px 38px;
+  font-size: 14px;
+  color: #FFF;
+  margin-left: 10px;
+}
+
+.btn-submit, #curriculo-label {
+  cursor: pointer;
 }
